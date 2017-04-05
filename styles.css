@@ -44,7 +44,7 @@ p { font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24p
 nav li {
 	list-style-type:none;
 	margin: 0;
-	padding: 20px;
+	padding: 0 20px;
 	display: inline;
 }
 
