@@ -1,0 +1,125 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*Colour scheme
+#CAEBF2 blue
+#A9A9A9 grey
+#FF3B3F orange
+#EFEFEF offwhite
+-------------- */
+
+html {
+	padding, margin: 0;
+	overflow-x:hidden;
+ }
+ 
+body {
+	font-size:10px
+	font-weight: 400;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #222; 
+	margin: 0 auto;
+	padding: 0;
+	background #fff;
+}
+
+/* Header & navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header {
+	height: 50px;
+	width: 100%;
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+	list-style-type:none;
+	margin: 0;
+	padding: 20px;
+	display: inline;
+	color: #828081;
+}
+
+nav li a:hover {
+	color: #FF3B3F;
+}
+
+nav li .current {
+	color: #FF3B3F;
+}
+
+/* Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#content {
+	background: #F5F5F5;
+	padding: 20px 0;
+	height: 100%
+	float: left;
+}
+
+section {
+	padding: 0 5%;
+	width:80%;
+}
+
+article #about {
+	
+}
+
+article li {
+	list-style-type:none;
+	margin: 0;
+	color: #828081;
+}
+
+article li ul{
+	background:#CAEBF2;
+}
+
+aside {
+	float:left;
+	position: relative;
+	height:100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+aside #one, #two, #three, #four {
+	width: 24%;
+	float: left;
+	display:inline;
+	padding: .5%
+}
+
+aside #one {
+	background: #CAEBF2;
+	color: #828081;
+}
+
+aside #two {
+	background: #A9A9A9;
+	color: #fff;
+}
+
+aside #three {
+	background: #FF3B3F;
+	color: #fff;
+}
+
+aside #four {
+	background: #EFEFEF;
+	color: #828081;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+footer {
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
